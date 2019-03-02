@@ -39,9 +39,11 @@ Add additional notes about how to deploy this on a live system
 
 ## Contributing
 
-[ASHAD UR ROB](http://www.robengg.com)
-[Maw Paing Thu](https://github.com/paingThu)
-[Amina Khatun Chandni](https://github.com/aminakhatunchandni)
+[ASHAD UR ROB](http://www.robengg.com) - Project Planner, Coder, Reviewer
+```
+[Maw Paing Thu](https://github.com/paingThu) - Project Planner, Coder, Reviewer
+```
+[Amina Khatun Chandni](https://github.com/aminakhatunchandni) - Project Planner, Coder
 
 
 ## License
