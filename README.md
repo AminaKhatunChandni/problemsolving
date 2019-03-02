@@ -39,11 +39,11 @@ Add additional notes about how to deploy this on a live system
 
 ## Contributing
 
-[ASHAD UR ROB](http://www.robengg.com) - Project Planner, Coder, Reviewer __
+[ASHAD UR ROB](http://www.robengg.com) - Project Planner, Programmer, Reviewer 
 
-[Maw Paing Thu](https://github.com/paingThu) - Project Planner, Coder, Reviewer __
+[Maw Paing Thu](https://github.com/paingThu) - Programmer, Reviewer 
 
-[Amina Khatun Chandni](https://github.com/aminakhatunchandni) - Project Planner, Coder
+[Amina Khatun Chandni](https://github.com/aminakhatunchandni) - Coder
 
 
 ## License
