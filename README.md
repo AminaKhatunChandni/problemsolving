@@ -1,6 +1,6 @@
 ## Project
 
-Problem Solving Step by Step
+Problem Solving Step by Step Application
 
 ## Getting Started
 
