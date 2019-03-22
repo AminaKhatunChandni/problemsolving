@@ -1,61 +1,83 @@
-
-#menu { /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5580e9+0,6096ae+31,59b9ec+60,8860d0+100 */
-background: #25274d; /* Old browsers */
-	padding: 10px 10px;
-}
+body {background:url("../img/solarsystem.png") repeat 0 0;
+	 background-size: cover;}
+#menu { background:rgb(216, 31, 66);}
 #menu, #nav, #main, #btn.link1, #btn.link2 {font-family: 'Fira Sans', sans-serif;
-color: #25274d;}
+											color: rgba(215, 0, 38, 0.85);}
+#main {background-color: #fff;
+		padding-left: 35px;
+		padding-right: 35px;
+		border-radius: 10px;
+		padding-top: 35px;
+		padding-bottom: 35px;}
 .ui.header {font-family: 'Fira Sans', sans-serif !important;
-color: #25274d !important;
-font-size: 18px !important;
-letter-spacing: 5px;
-text-transform: uppercase;}
-.ui.dividing.header {
-    border-bottom: 1px solid rgba(70, 72, 102, 0.42) !important;
-}
-#nav .item {position: static;}
-
-#signin label, #login label {color: #25274d !important;
-font-size: 14px !important;}
-select.ui.dropdown {
-    border: none !important;
-    font-family: 'Fira Sans', sans-serif;
-    color: rgb(37, 39, 77);
-}
-#signin input {border: 1px solid rgba(37, 39, 77, 0.51);
-border-radius: 2px;
-background: #fff;
-color: #29648a;}
-#main {margin-top:50px;
-margin-bottom:25px;  }
-#btn .link1 {background-color:#25274d;
-color: rgba(255, 255, 255, 0);
-font-size: 14px;}
-#btn .link2 {background-color:#29648a;
-color: rgba(255, 255, 255, 0);
-font-size: 14px;}
-#info {margin-top: 15px;
-margin-bottom: 15px;
-font-size: 14px;}
-#info a {color: #29648a;
-}
-#info a:hover {
-    color: #29648a;
-    text-decoration: none;
-}
-#lang select {background-color:#25274d !important;
-color: #fff;
-font-size: 16px;}
+			color: #000b29 !important;
+			font-size: 18px !important;
+			letter-spacing: 5px;
+			text-transform: uppercase;}
+.ui.dividing.header {border-bottom: 1px solid #000b29 !important;}
+#lang {margin-top: 10px;
+		margin-bottom: 10px;}
+#lang select {background-color:transparent !important;
+			  color: #fff;
+			  font-size: 16px;}
+#lang option {background-color:rgba(215, 0, 38, 0.85) !important;}
 #nav a {color: #fff;
-font-size: 16px;}
-#slider {margin-top:25px;
-margin-bottom:50px;  }
-#footer {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5580e9+0,6096ae+31,59b9ec+60,8860d0+100 */
-background: #25274d; /* Old browsers */
+		font-size: 16px;
+		padding-top: 10px;
+		padding-bottom: 10px;}
+#nav a:hover {background-color: #350929;
+transition:.7s;}
+#nav .item {position: static;}
+#main {margin-top:50px;
+		margin-bottom:50px;}
+#signin label, #login label {color: #000b29 !important;
+							font-size: 14px !important;}
+select.ui.dropdown {border: none !important;
+    				font-family: 'Fira Sans', sans-serif;
+    				color: #000b29;}
+#signin input, #login input {border: 1px solid #000b29;
+			   border-radius: 20px;
+			   background: #fff;
+			   color: #000b29;}
+.ui.checkbox .box:before, .ui.checkbox label:before {
+    border: 1px solid rgba(20, 21, 25, 0.51);
 }
-#footer p {color: #fff;
-font-size: 16px;}
-
-#world-map .jvectormap-container {background-color: rgb(37, 39, 77) !important;}
+.ui.checkbox .box:hover::before, .ui.checkbox label:hover::before {
+    border-color: #000b29;
+}
+#btn .link1 {background-color:#000b29;
+			color: rgba(255, 255, 255, 0);
+			font-size: 14px;}
+#btn .link2 {background-color:#d70029;
+			color: rgba(255, 255, 255, 0);
+			font-size: 14px;}
+.ui.buttons .button:first-child {
+    border-top-left-radius: 1.307692em !important;
+    border-bottom-left-radius: 1.307692em !important;
+}
+.ui.buttons .button:last-child {
+    border-top-right-radius: 1.307692em !important;
+    border-bottom-right-radius: 1.307692em !important;
+}
+#world-map .jvectormap-container {background-color:
+background: rgb(215,0,38);
+background: -moz-linear-gradient(-45deg, rgba(215,0,38,1) 0%, rgba(0,11,41,1) 100%); 
+background: -webkit-linear-gradient(-45deg, rgba(215,0,38,1) 0%,rgba(0,11,41,1) 100%); 
+background: linear-gradient(135deg, rgba(215,0,38,1) 0%,rgba(0,11,41,1) 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#rgba(215, 0, 38, 0.85)', endColorstr='#000b29',GradientType=1 );!important;}
 #world-map {border-radius: 2px;}
-path[Attributes Style] {fill: #29648a;}
+#info {margin-top: 15px;
+	   margin-bottom: 15px;
+	   font-size: 14px;}
+#info p {color: #000b29 !important;}
+#info a {color: #000b29;}
+#info a:hover {color: #000b29;
+    		   text-decoration: none;}
+/*#slider {margin-top:25px;
+		margin-bottom:50px;}*/
+#jssor_1 img {width: 90px !important;
+height: 90px !important;}
+#footer {background: rgb(196, 4, 40);}
+#footer p {color: #fff;
+		   font-size: 16px;}
+
